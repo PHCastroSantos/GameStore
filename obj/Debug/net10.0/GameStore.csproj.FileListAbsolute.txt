@@ -64,3 +64,4 @@ D:/Estudos/ASP.NET Core/GameStore/obj/Debug/net10.0/ref/GameStore.dll
 /mnt/80af5fe5-204f-4f31-bd1a-d23e1560f5a0/Studies/Projects/GameStore/obj/Debug/net10.0/GameStore.pdb
 /mnt/80af5fe5-204f-4f31-bd1a-d23e1560f5a0/Studies/Projects/GameStore/obj/Debug/net10.0/GameStore.genruntimeconfig.cache
 /mnt/80af5fe5-204f-4f31-bd1a-d23e1560f5a0/Studies/Projects/GameStore/obj/Debug/net10.0/ref/GameStore.dll
+/mnt/80af5fe5-204f-4f31-bd1a-d23e1560f5a0/Studies/Projects/GameStore/obj/Debug/net10.0/GameStore.sourcelink.json
