@@ -1,0 +1,431 @@
+Nov 04 08:23:41 PHCS-PC kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mata5: failed to resume link (SControl 0)[0m
+Nov 04 08:23:43 PHCS-PC kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mACPI Warning: SystemIO range 0x0000000000000B00-0x0000000000000B08 conflicts with OpRegion 0x0000000000000B00-0x0000000000000B0F (\GSA1.SMBI) (20251212/utaddress-204)[0m
+Nov 04 08:23:43 PHCS-PC kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mnvidia: loading out-of-tree module taints kernel.[0m
+Nov 04 08:23:43 PHCS-PC kernel: 
+Nov 04 08:23:43 PHCS-PC kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mNVRM: loading NVIDIA UNIX Open Kernel Module for x86_64  595.99.02  Release Build  (dvs-builder@U22-I3-AF05-06-2)  Wed Aug 26 05:20:50 UTC 2026[0m
+Nov 04 08:23:46 PHCS-PC systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mDependency failed for sssd-nss.socket - SSSD NSS Service responder socket.[0m
+Nov 04 08:23:46 PHCS-PC systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mDependency failed for sssd-autofs.socket - SSSD AutoFS Service responder socket.[0m
+Nov 04 08:23:46 PHCS-PC systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mDependency failed for sssd-pac.socket - SSSD PAC Service responder socket.[0m
+Nov 04 08:23:46 PHCS-PC systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mDependency failed for sssd-pam.socket - SSSD PAM Service responder socket.[0m
+Nov 04 08:23:46 PHCS-PC systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mDependency failed for sssd-ssh.socket - SSSD SSH Service responder socket.[0m
+Nov 04 08:23:46 PHCS-PC systemd[1]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mDependency failed for sssd-sudo.socket - SSSD Sudo Service responder socket.[0m
+Nov 04 08:23:46 PHCS-PC (cron)[1913]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mcron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS[0m
+Nov 04 08:23:46 PHCS-PC kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mnvme nvme0: using unchecked data buffer[0m
+Nov 04 08:23:47 PHCS-PC iio-sensor-proxy[1882]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mNot a switch [/sys/devices/pci0000:00/0000:00:01.2/0000:02:00.0/usb1/1-2/1-2:1.0/0003:3554:FA09.0002/input/input5/../capabilities/sw][0m
+Nov 04 08:23:47 PHCS-PC iio-sensor-proxy[1882]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mInvalid bitmask entry for /sys/devices/pci0000:00/0000:00:01.2/0000:02:00.0/usb1/1-2/1-2:1.0/0003:3554:FA09.0002/input/input5/event5[0m
+Nov 04 08:23:47 PHCS-PC kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mblock nvme0n1: No UUID available providing old NGUID[0m
+Nov 04 08:23:47 PHCS-PC gdm-autologin][2352]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mgkr-pam: no password is available for user[0m
+Nov 04 08:23:48 PHCS-PC systemd[2373]: [0;1;38:5:185m]8;;file://PHCS-PC/usr/lib/systemd/user/spice-vdagent.service\/usr/li[0;1;39m[0;1;38:5:185mb/systemd/user/spice-vdagent.service]8;;\:23: Unknown key 'StandardError' in section [Install], ignoring.[0m
+Nov 04 08:23:48 PHCS-PC gdm-autologin][2352]: [0;1;31m[0;1;39m[0;1;31mgkr-pam: couldn't unlock the login keyring.[0m
+Nov 04 08:23:48 PHCS-PC gnome-session-service[2705]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mApp xdg-user-dirs.desktop sets X-GNOME-Autostart-Phase, but gnome-session no longer manages session services[0m
+Nov 04 08:23:48 PHCS-PC gnome-session-service[2705]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mApp at-spi-dbus-bus.desktop sets X-GNOME-Autostart-Phase, but gnome-session no longer manages session services[0m
+Nov 04 08:23:48 PHCS-PC gnome-session-service[2705]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mApp gnome-keyring-secrets.desktop sets X-GNOME-Autostart-Phase, but gnome-session no longer manages session services[0m
+Nov 04 08:23:48 PHCS-PC gnome-session-service[2705]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mApp gnome-keyring-pkcs11.desktop sets X-GNOME-Autostart-Phase, but gnome-session no longer manages session services[0m
+Nov 04 08:23:48 PHCS-PC gnome-session-service[2705]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mApp spice-vdagent.desktop sets X-GNOME-Autostart-Phase, but gnome-session no longer manages session services[0m
+Nov 04 08:23:48 PHCS-PC gnome-shell[2722]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUnknown experimental feature 'scale-monitor-framebuffer'[0m
+Nov 04 08:23:48 PHCS-PC gnome-shell[2722]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUnknown experimental feature 'xwayland-native-scaling'[0m
+Nov 04 08:23:48 PHCS-PC wireplumber[2450]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mdefault: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner[0m
+Nov 04 08:23:48 PHCS-PC wireplumber[2450]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mspa.bluez5: BlueZ system service is not available[0m
+Nov 04 08:23:50 PHCS-PC gnome-session-service[2705]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mCould not create transient scope for PID 2993: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process[0m
+Nov 04 08:23:50 PHCS-PC gsd-sharing[2958]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to stop gnome-user-share-webdav.service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.[0m
+Nov 04 08:23:50 PHCS-PC gsd-usb-protection[2968]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.usbguard1 was not provided by any .service files[0m
+Nov 04 08:23:51 PHCS-PC gsd-media-keys[2948]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to grab accelerator for keybinding settings:hibernate[0m
+Nov 04 08:23:51 PHCS-PC gsd-media-keys[2948]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to grab accelerator for keybinding settings:playback-repeat[0m
+Nov 04 08:23:51 PHCS-PC gnome-shell[2722]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mType GITypeInfo of property Clutter.BrightnessContrastEffect::brightness does not match type GITypeInfo of first argument of setter set_brightness. Falling back to slow path[0m
+Nov 04 08:23:51 PHCS-PC gsd-xsettings[4144]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to get current UI scaling factor: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Name "org.gnome.Mutter.X11" does not exist[0m
+Nov 04 08:23:52 PHCS-PC kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mkauditd_printk_skb: 265 callbacks suppressed[0m
+Nov 04 08:23:52 PHCS-PC snapd-desktop-i[4214]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open display[0m
+Nov 04 08:23:52 PHCS-PC systemd[2373]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185msnap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'exit-code'.[0m
+Nov 04 08:23:52 PHCS-PC bitwarden-app[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mTheme parsing error: gtk.css:1413:23: 'font-feature-settings' is not a valid property name[0m
+Nov 04 08:23:52 PHCS-PC bitwarden-app[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mTheme parsing error: gtk.css:3286:25: 'font-feature-settings' is not a valid property name[0m
+Nov 04 08:23:52 PHCS-PC bitwarden-app[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mTheme parsing error: gtk.css:3748:23: 'font-feature-settings' is not a valid property name[0m
+Nov 04 08:23:52 PHCS-PC bitwarden-app[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mTheme parsing error: gtk-dark.css:1413:23: 'font-feature-settings' is not a valid property name[0m
+Nov 04 08:23:52 PHCS-PC bitwarden-app[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mTheme parsing error: gtk-dark.css:3286:25: 'font-feature-settings' is not a valid property name[0m
+Nov 04 08:23:52 PHCS-PC bitwarden-app[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mTheme parsing error: gtk-dark.css:3748:23: 'font-feature-settings' is not a valid property name[0m
+Nov 04 08:23:52 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[3161:1104/082352.942892:ERROR:dbus/bus.cc:570] Failed to get the ownership of org.freedesktop.StatusNotifierItem-3161-1: Connection ":1.109" is not allowed to own the service "org.freedesktop.StatusNotifierItem-3161-1" due to AppArmor policy[0m
+Nov 04 08:23:52 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:23:52.943 › [Native messaging] Failed to hard-link /snap/bitwarden/179/desktop_proxy to /home/pedro-santos/.mozilla/native-messaging-hosts/.bitwarden_desktop_proxy, copying instead: Error: EXDEV: cross-device link not permitted, link '/snap/bitwarden/179/desktop_proxy' -> '/home/pedro-santos/.mozilla/native-messaging-hosts/.bitwarden_desktop_proxy'[0m
+Nov 04 08:23:52 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m[3161:1104/082352.943674:ERROR:dbus/bus.cc:587] org.freedesktop.StatusNotifierItem-3161-1 is not owned by the bus[0m
+Nov 04 08:23:52 PHCS-PC gnome-shell[2722]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mType GITypeInfo of property Shell.TrayIcon::pid does not match return type GITypeInfo of getter get_pid. Falling back to slow path[0m
+Nov 04 08:23:52 PHCS-PC update-notifier[2979]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mlibayatana-appindicator is deprecated. Please use libayatana-appindicator-glib in newly written code.[0m
+Nov 04 08:23:52 PHCS-PC bitwarden.desktop[4463]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mMESA-LOADER: failed to open nouveau (search paths /snap/bitwarden/179/gnome-platform/usr/lib/x86_64-linux-gnu/dri)[0m
+Nov 04 08:23:52 PHCS-PC bitwarden.desktop[4463]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mfailed to load driver: nouveau[0m
+Nov 04 08:23:52 PHCS-PC bitwarden.desktop[4463]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mMESA-LOADER: failed to open kms_swrast (search paths /snap/bitwarden/179/gnome-platform/usr/lib/x86_64-linux-gnu/dri)[0m
+Nov 04 08:23:52 PHCS-PC bitwarden.desktop[4463]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mfailed to load driver: kms_swrast[0m
+Nov 04 08:23:52 PHCS-PC bitwarden.desktop[4463]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mMESA-LOADER: failed to open swrast (search paths /snap/bitwarden/179/gnome-platform/usr/lib/x86_64-linux-gnu/dri)[0m
+Nov 04 08:23:52 PHCS-PC bitwarden.desktop[4463]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mfailed to load swrast driver[0m
+Nov 04 08:23:52 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:23:52.998 › [Native messaging] Failed to hard-link /snap/bitwarden/179/desktop_proxy to /home/pedro-santos/.config/google-chrome/NativeMessagingHosts/.bitwarden_desktop_proxy, copying instead: Error: EXDEV: cross-device link not permitted, link '/snap/bitwarden/179/desktop_proxy' -> '/home/pedro-santos/.config/google-chrome/NativeMessagingHosts/.bitwarden_desktop_proxy'[0m
+Nov 04 08:23:53 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:23:53.006 › [Native messaging] Failed to hard-link /snap/bitwarden/179/desktop_proxy to /home/pedro-santos/.config/chromium/NativeMessagingHosts/.bitwarden_desktop_proxy, copying instead: Error: EXDEV: cross-device link not permitted, link '/snap/bitwarden/179/desktop_proxy' -> '/home/pedro-santos/.config/chromium/NativeMessagingHosts/.bitwarden_desktop_proxy'[0m
+Nov 04 08:23:53 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:23:53.014 › [Native messaging] Failed to hard-link /snap/bitwarden/179/desktop_proxy to /home/pedro-santos/.config/microsoft-edge/NativeMessagingHosts/.bitwarden_desktop_proxy, copying instead: Error: EXDEV: cross-device link not permitted, link '/snap/bitwarden/179/desktop_proxy' -> '/home/pedro-santos/.config/microsoft-edge/NativeMessagingHosts/.bitwarden_desktop_proxy'[0m
+Nov 04 08:23:53 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:23:53.017 › Vivaldi not found, skipping.[0m
+Nov 04 08:23:53 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:23:53.017 › Brave not found, skipping.[0m
+Nov 04 08:23:53 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:23:53.017 › Helium not found, skipping.[0m
+Nov 04 08:23:53 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:23:53.017 › Firefox not found, skipping.[0m
+Nov 04 08:23:53 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:23:53.017 › Chrome not found, skipping.[0m
+Nov 04 08:23:53 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:23:53.017 › Chromium not found, skipping.[0m
+Nov 04 08:23:53 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:23:53.018 › Microsoft Edge not found, skipping.[0m
+Nov 04 08:23:53 PHCS-PC kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mGeneric FE-GE Realtek PHY r8169-0-400:00: Downshift occurred from negotiated speed 1Gbps to actual speed 100Mbps, check cabling![0m
+Nov 04 08:23:53 PHCS-PC gsd-sharing[2958]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to stop gnome-user-share-webdav.service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.[0m
+Nov 04 08:23:53 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:23:53.479 › [NAPI] [WARN] zbus::proxy: Failed to populate properties cache via GetAll: org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/portal/desktop/request/1_117/ashpd_6WqzcEaWqb”. Property change streams will not produce values.[0m
+Nov 04 08:23:53 PHCS-PC gnome-shell[2722]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mLibgcrypt warning: missing initialization - please fix the application[0m
+Nov 04 08:23:55 PHCS-PC update-notifier[2979]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mlibayatana-appindicator is deprecated. Please use libayatana-appindicator-glib in newly written code.[0m
+Nov 04 08:23:55 PHCS-PC update-notifier[2979]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mlibayatana-appindicator is deprecated. Please use libayatana-appindicator-glib in newly written code.[0m
+Nov 04 08:23:57 PHCS-PC gnome-software[3274]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mOnly 0 apps for curated list, hiding[0m
+Nov 04 08:23:57 PHCS-PC gnome-software[3274]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185minternal error: failed, but no error code: cancelled-priority[0m
+Nov 04 08:24:00 PHCS-PC gnome-software[3274]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mupdates-shell: failed to get upgrades: no plugin could handle listing distro upgrades[0m
+Nov 04 08:24:00 PHCS-PC gnome-software[3274]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185minternal error: failed, but no error code: cancelled-priority[0m
+Nov 04 08:24:53 PHCS-PC gnome-software[3274]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mfailed to get upgrades: no plugin could handle listing distro upgrades[0m
+Nov 04 08:28:34 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:28:34.603 › [NAPI] [WARN] zbus::proxy: Failed to populate properties cache via GetAll: org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/portal/desktop/request/1_117/ashpd_pl0QcGBmag”. Property change streams will not produce values.[0m
+Nov 04 08:28:34 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:28:34.642 › [NAPI] [WARN] zbus::proxy: Failed to populate properties cache via GetAll: org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/portal/desktop/request/1_117/ashpd_ieLFP79fNU”. Property change streams will not produce values.[0m
+Nov 04 08:28:34 PHCS-PC localsearch-3[3275]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mCould not ask extractor to update: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/Tracker3/Extract”[0m
+Nov 04 08:28:34 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:28:34.654 › [NAPI] [WARN] zbus::proxy: Failed to populate properties cache via GetAll: org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/portal/desktop/request/1_117/ashpd_BSZQPbgBKJ”. Property change streams will not produce values.[0m
+Nov 04 08:28:34 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:28:34.669 › [NAPI] [WARN] zbus::proxy: Failed to populate properties cache via GetAll: org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/portal/desktop/request/1_117/ashpd_ixoReNJ6BE”. Property change streams will not produce values.[0m
+Nov 04 08:28:34 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:28:34.681 › [NAPI] [WARN] zbus::proxy: Failed to populate properties cache via GetAll: org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/portal/desktop/request/1_117/ashpd_wOepRrqWC5”. Property change streams will not produce values.[0m
+Nov 04 08:28:34 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:28:34.693 › [NAPI] [WARN] zbus::proxy: Failed to populate properties cache via GetAll: org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/portal/desktop/request/1_117/ashpd_RMvDahEN1r”. Property change streams will not produce values.[0m
+Nov 04 08:28:35 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:28:35.158 › [NAPI] [WARN] zbus::proxy: Failed to populate properties cache via GetAll: org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/portal/desktop/request/1_117/ashpd_fTsBBh0F6g”. Property change streams will not produce values.[0m
+Nov 04 08:28:35 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:28:35.206 › [NAPI] [WARN] zbus::proxy: Failed to populate properties cache via GetAll: org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/portal/desktop/request/1_117/ashpd_zW5T98MHlE”. Property change streams will not produce values.[0m
+Nov 04 08:28:35 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:28:35.219 › [NAPI] [WARN] zbus::proxy: Failed to populate properties cache via GetAll: org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/portal/desktop/request/1_117/ashpd_LyZKImaPwc”. Property change streams will not produce values.[0m
+Nov 04 08:28:35 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:28:35.754 › [NAPI] [WARN] zbus::proxy: Failed to populate properties cache via GetAll: org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/portal/desktop/request/1_117/ashpd_HLI8e5LPOB”. Property change streams will not produce values.[0m
+Nov 04 08:28:35 PHCS-PC bitwarden.desktop[3161]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m08:28:35.766 › [NAPI] [WARN] zbus::proxy: Failed to populate properties cache via GetAll: org.freedesktop.DBus.Error.UnknownMethod: Object does not exist at path “/org/freedesktop/portal/desktop/request/1_117/ashpd_W2J7Be4Mx6”. Property change streams will not produce values.[0m
+Nov 04 08:28:46 PHCS-PC systemd[2373]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mubuntu-insights-collect.service: unit configures an IP firewall, but not running as root.[0m
+Nov 04 08:28:46 PHCS-PC systemd[2373]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mubuntu-insights-collect.service: (This warning is only shown for the first unit using IP firewalling.)[0m
+Nov 04 08:28:46 PHCS-PC kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mkauditd_printk_skb: 22 callbacks suppressed[0m
+Nov 04 08:29:27 PHCS-PC gnome-shell[2722]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mInvalid sequence for VSYNC frame info[0m
+Nov 04 08:29:32 PHCS-PC io.snapcraft.Settings[6005]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185muserd.go:93: Starting snap userd[0m
+Nov 04 09:03:51 PHCS-PC gsd-media-keys[2948]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUnable to get default source[0m
+Nov 04 09:03:51 PHCS-PC gsd-media-keys[2948]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUnable to get default sink[0m
+Nov 04 09:10:55 PHCS-PC steam-runtime-steam-remote[8451]: [0;1;31m[0;1;39m[0;1;31mE: Steam is not running: No such device or address[0m
+Nov 04 09:55:27 PHCS-PC gnome-shell[2722]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m0x480000a (Stardew Valley): Frame has assigned frame counter but no frame drawn time[0m
+Nov 04 11:23:55 PHCS-PC update-notifier[2979]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mg_object_get_data: assertion 'G_IS_OBJECT (object)' failed[0m
+Nov 04 12:48:29 PHCS-PC gnome-shell[2722]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mg_object_get_qdata: assertion 'G_IS_OBJECT (object)' failed[0m
+Nov 04 12:48:29 PHCS-PC gnome-shell[2722]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mg_object_get_qdata: assertion 'G_IS_OBJECT (object)' failed[0m
+Nov 04 12:48:29 PHCS-PC gnome-shell[2722]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mg_object_get_qdata: assertion 'G_IS_OBJECT (object)' failed[0m
+Nov 04 13:03:54 PHCS-PC kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mset_capacity_and_notify: 16 callbacks suppressed[0m
+Nov 04 13:03:55 PHCS-PC systemd[2373]: [0;1;38:5:185m]8;;file://PHCS-PC/usr/lib/systemd/user/spice-vdagent.service\/usr/li[0;1;39m[0;1;38:5:185mb/systemd/user/spice-vdagent.service]8;;\:23: Unknown key 'StandardError' in section [Install], ignoring.[0m
+Nov 04 13:03:55 PHCS-PC systemd[2373]: [0;1;38:5:185m]8;;file://PHCS-PC/usr/lib/systemd/user/spice-vdagent.service\/usr/li[0;1;39m[0;1;38:5:185mb/systemd/user/spice-vdagent.service]8;;\:23: Unknown key 'StandardError' in section [Install], ignoring.[0m
+Nov 04 13:04:57 PHCS-PC systemd-logind[1917]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mExisting logind session ID 2 used by new audit session, ignoring.[0m
+Nov 04 13:04:57 PHCS-PC kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mkauditd_printk_skb: 2 callbacks suppressed[0m
+Nov 04 13:04:57 PHCS-PC systemd[19332]: [0;1;38:5:185m]8;;file://PHCS-PC/usr/lib/systemd/user/spice-vdagent.service\/usr/li[0;1;39m[0;1;38:5:185mb/systemd/user/spice-vdagent.service]8;;\:23: Unknown key 'StandardError' in section [Install], ignoring.[0m
+Nov 04 13:04:57 PHCS-PC systemd[19332]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mubuntu-insights-collect.service: restrict-interfaces: Couldn't find index of network interface 'yes', ignoring: No such device[0m
+Nov 04 13:04:57 PHCS-PC systemd[19332]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mDependency failed for wireplumber.service - Multimedia Service Session Manager.[0m
+Nov 04 13:04:57 PHCS-PC systemd[19332]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mDependency failed for filter-chain.service - PipeWire filter chain daemon.[0m
+Nov 04 13:08:12 PHCS-PC systemd[19332]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185msnap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'exit-code'.[0m
+Nov 04 13:11:35 PHCS-PC dbus-daemon[1874]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUnknown username "malcontent-timer-ext-agent" in message bus configuration file[0m
+Nov 04 13:11:35 PHCS-PC dbus-daemon[1874]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUnknown username "malcontent-timerd" in message bus configuration file[0m
+Nov 04 13:11:35 PHCS-PC dbus-daemon[1874]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUnknown username "malcontent-webd" in message bus configuration file[0m
+Nov 04 13:11:35 PHCS-PC dbus-daemon[1874]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUnknown username "malcontent-timerd" in message bus configuration file[0m
+Nov 04 13:11:35 PHCS-PC dbus-daemon[1874]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUnknown username "malcontent-timer-ext-agent" in message bus configuration file[0m
+Nov 04 13:11:35 PHCS-PC dbus-daemon[1874]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUnknown username "malcontent-timerd" in message bus configuration file[0m
+Nov 04 13:11:35 PHCS-PC dbus-daemon[1874]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUnknown username "malcontent-webd" in message bus configuration file[0m
+Nov 04 13:11:35 PHCS-PC dbus-daemon[1874]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUnknown username "malcontent-timerd" in message bus configuration file[0m
+Nov 04 13:11:41 PHCS-PC dbus-daemon[1874]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUnknown username "malcontent-timer-ext-agent" in message bus configuration file[0m
+Nov 04 13:11:41 PHCS-PC dbus-daemon[1874]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUnknown username "malcontent-timerd" in message bus configuration file[0m
+Nov 04 13:11:41 PHCS-PC dbus-daemon[1874]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUnknown username "malcontent-webd" in message bus configuration file[0m
+Nov 04 13:11:41 PHCS-PC dbus-daemon[1874]: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mUnknown username "malcontent-timerd" in message bus configuration file[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mCouldn't load property file '/vendor_extra/build.prop': open() failed: No such file or directory: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mCouldn't load property file '/system_dlkm/etc/build.prop': open() failed: No such file or directory: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mCouldn't load property file '/vendor/default.prop': open() failed: No such file or directory: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mCouldn't load property file '/odm_dlkm/etc/build.prop': open() failed: No such file or directory: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mOverriding previous property 'ro.config.notification_sound':'OnTheHunt.ogg' with new value 'Argon.ogg'[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mOverriding previous property 'ro.config.alarm_alert':'Alarm_Classic.ogg' with new value 'Hassium.ogg'[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mOverriding previous property 'ro.adb.secure':'0' with new value '1'[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mOverriding previous property 'ro.debuggable':'1' with new value '0'[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mCould not set 'ro.vndk.lite' to 'true' while loading .prop filesRead-only property was already set[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m'writepid /dev/cpuset/foreground/tasks' is converted into 'task_profiles ProcessCapacityHigh' for service vendor.audio-hal-2-0[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m'writepid /dev/stune/foreground/tasks' is converted into 'task_profiles HighPerformance' for service vendor.audio-hal-2-0[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31m/vendor/etc/init/android.hardware.audio.service.rc: 1: ignored duplicate definition of service 'vendor.audio-hal'[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31m/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc: 1: ignored duplicate definition of service 'vendor.hwcomposer-2-1'[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to mount blkio cgroup: Operation not permitted[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to setup blkio cgroup[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to mount cgroup v2: Device or resource busy[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mlchown() failed for /sys/fs/cgroup/.: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to create directory for cgroup2 cgroup[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to mount cgroup2 cgroup: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to setup cgroup2 cgroup[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to mount cpu cgroup: Operation not permitted[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to setup cpu cgroup[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to mount cpuset cgroup: No such device[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to setup cpuset cgroup[0m
+Nov 04 13:17:51 PHCS-PC kernel: [0;1;31m[0;1;39m[0;1;31mcgroup: Unknown subsys name 'memory'[0m
+Nov 04 13:17:51 PHCS-PC kernel: [0;1;31m[0;1;39m[0;1;31mcgroup: Unknown subsys name 'schedtune'[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to mount schedtune cgroup: Invalid argument[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to setup schedtune cgroup[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 4) failed for service 'exec 1 (/system/bin/bootstrap/linkerconfig --target /linkerconfig/bootstrap)': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC linkerconfig: [0;1;31m[0;1;39m[0;1;31mUnable to access VNDK APEX at path: /apex/com.android.vndk.v33: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 5) failed for service 'ueventd': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 6) failed for service 'apexd-bootstrap': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC apexd: [0;1;31m[0;1;39m[0;1;31mFailed to scan /system_ext/apex : Can't open /system_ext/apex for reading : No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC apexd: [0;1;31m[0;1;39m[0;1;31mFailed to scan /product/apex : Can't open /product/apex for reading : No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC apexd: [0;1;31m[0;1;39m[0;1;31mFailed to scan /vendor/apex : Can't open /vendor/apex for reading : No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1092: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1092, 25) failed for service 'prng_seeder': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 26) failed for service 'boringssl_self_test32_vendor': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC prng_seeder: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mHanging forever because setup failed: Unable to open hwrng /dev/hw_random[0m
+Nov 04 13:17:51 PHCS-PC unknown: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mCaused by:[0m
+Nov 04 13:17:51 PHCS-PC unknown: [0;1;38:5:185m[0;1;39m[0;1;38:5:185m    No such file or directory (os error 2)[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 27) failed for service 'boringssl_self_test64_vendor': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 28) failed for service 'exec 2 (/vendor/bin/sh -c [ -c /dev/host_hwbinder ] && setprop ctl.stop vendor.gralloc-2-0)': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mCould not add watch for /dev/input: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1036: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1036, 29) failed for service 'logd': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1069: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1069, 30) failed for service 'lmkd': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/system-background/tasks: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ServiceCapacityLow task profile: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/system-background/tasks: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ServiceCapacityLow task profile: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 31) failed for service 'servicemanager': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/system-background/tasks: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ServiceCapacityLow task profile: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 32) failed for service 'hwservicemanager': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/system-background/tasks: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ServiceCapacityLow task profile: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/stune/foreground/tasks: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply HighPerformance task profile: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 33) failed for service 'vndservicemanager': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/system-background/tasks: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ServiceCapacityLow task profile: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 34) failed for service 'boringssl_self_test32': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 42) failed for service 'boringssl_self_test64': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC kernel: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mNOTICE: Automounting of tracing to debugfs is deprecated and will be removed in 2030[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 43) failed for service 'vold': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/foreground/tasks: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ProcessCapacityHigh task profile: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 44) failed for service 'exec 3 (/system/bin/vdc checkpoint markBootAttempt)': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC vold: [0;1;31m[0;1;39m[0;1;31mFailed to opendir: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 48) failed for service 'exec 4 (/system/bin/recovery-refresh)': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 49) failed for service 'system_suspend': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1017: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1017, 50) failed for service 'keystore2': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/foreground/tasks: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ProcessCapacityHigh task profile: No such file or directory[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 51) failed for service 'vendor.keymaster-4-0': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 52) failed for service 'exec 5 (/system/bin/fsverity_init --load-verified-keys)': Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:51 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 53) failed for service 'exec 6 (/system/bin/vdc checkpoint prepareCheckpoint)': Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1058: Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1058, 56) failed for service 'tombstoned': Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/system-background/tasks: No such file or directory[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ServiceCapacityLow task profile: No such file or directory[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 57) failed for service 'exec 7 (/system/bin/vdc keymaster earlyBootEnded)': Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC incfs: [0;1;31m[0;1;39m[0;1;31mIncFs_Features: failed to open features dir, assuming v1/none.: No such file or directory[0m
+Nov 04 13:17:52 PHCS-PC vold: [0;1;31m[0;1;39m[0;1;31mkeystore2 Keystore earlyBootEnded returned service specific error: -68[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mCouldn't load property file '/data/local.prop': open() failed: No such file or directory: No such file or directory[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mCould not load single persistent property file, trying legacy directory: Unable to read persistent property file: open() failed: No such file or directory[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1036: Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1036, 65) failed for service 'logd-reinit': Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/system-background/tasks: No such file or directory[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ServiceCapacityLow task profile: No such file or directory[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mInferred action different from explicit one, expected 0 but got 2[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mInferred action different from explicit one, expected 0 but got 3[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mInferred action different from explicit one, expected 0 but got 2[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 66) failed for service 'apexd': Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC logd: [0;1;31m[0;1;39m[0;1;31mCannot read /data/misc/logd/event-log-tags[0m
+Nov 04 13:17:52 PHCS-PC logd: [0;1;31m[0;1;39m[0;1;31mFrameworkListener: read() failed (Connection reset by peer)[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1081: Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1081, 67) failed for service 'exec 8 (/bin/rm -rf /data/misc/virtualizationservice)': Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mInferred action different from explicit one, expected 0 but got 2[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mInferred action different from explicit one, expected 2 but got 3[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1023: Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1023, 69) failed for service 'exec 9 (/system/bin/chattr +F /data/media)': Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mInferred action different from explicit one, expected 2 but got 3[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_9999: Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(9999, 70) failed for service 'derive_sdk': Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 71) failed for service 'exec 10 (/system/bin/vdc --wait cryptfs init_user0)': Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC vold: [0;1;31m[0;1;39m[0;1;31mFailed to chmod /data/system_ce/0: No such file or directory[0m
+Nov 04 13:17:52 PHCS-PC vold: [0;1;31m[0;1;39m[0;1;31mFailed to chmod /data/misc_ce/0: No such file or directory[0m
+Nov 04 13:17:52 PHCS-PC vold: [0;1;31m[0;1;39m[0;1;31mFailed to chmod /data/media/0: No such file or directory[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 74) failed for service 'derive_classpath': Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 75) failed for service 'odsign': Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 76) failed for service 'exec 11 (/system/bin/fsverity_init --lock)': Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 77) failed for service 'apexd-snapshotde': Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 78) failed for service 'exec 12 (/system/bin/tzdatacheck /apex/com.android.tzdata/etc/tz /data/misc/zoneinfo)': Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mTop-level directory needs encryption action, eg mkdir /data/icons <mode> <uid> <gid> encryption=Require[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mTop-level directory needs encryption action, eg mkdir /data/waydroid_tmp <mode> <uid> <gid> encryption=Require[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 79) failed for service 'exec 13 (/system/bin/recovery-persist)': Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mTop-level directory needs encryption action, eg mkdir /data/adbroot <mode> <uid> <gid> encryption=Require[0m
+Nov 04 13:17:52 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:52 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 80) failed for service 'bpfloader': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC LibBpfLoader: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mNo maps section could be found in elf object[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1066: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1066, 83) failed for service 'statsd': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/system-background/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ServiceCapacityLow task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 84) failed for service 'netd': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 85) failed for service 'zygote': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/foreground/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ProcessCapacityHigh task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/stune/top-app/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply MaxPerformance task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 86) failed for service 'zygote_secondary': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/foreground/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ProcessCapacityHigh task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/stune/top-app/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply MaxPerformance task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 87) failed for service 'hidl_memory': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mCould not start service 'vendor.audio-hal-2-0' as part of class 'hal': Cannot find '/vendor/bin/hw/android.hardware.audio@2.0-service': No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 88) failed for service 'vendor.audio-hal': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 89) failed for service 'vendor.hwcomposer-2-1': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mCould not start service 'vendor.camera-provider-2-4' as part of class 'hal': Cannot find '/vendor/bin/hw/android.hardware.camera.provider@2.4-service': No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/foreground/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ProcessCapacityHigh task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/stune/foreground/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply HighPerformance task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 90) failed for service 'task-hal-1-0': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/system-background/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ServiceCapacityLow task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1047: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1047, 91) failed for service 'vendor.camera-provider-2-7-ext': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1013: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1013, 92) failed for service 'vendor.cas-hal-1-2': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/camera-daemon/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply CameraServiceCapacity task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/stune/top-app/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply MaxPerformance task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 93) failed for service 'vendor.configstore-hal': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/foreground/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ProcessCapacityHigh task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 94) failed for service 'vendor.gatekeeper-1-0': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 95) failed for service 'vendor.gralloc-2-0': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 96) failed for service 'vendor.health-hal-2-0': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 97) failed for service 'vendor.light-hal-2-0': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 98) failed for service 'vendor.memtrack-hal-1-0': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 101) failed for service 'vendor.power-hal-1-0': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 103) failed for service 'vendor.sensors-hal-1-0': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 104) failed for service 'vendor.vibrator-1-0': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1041: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1041, 105) failed for service 'audioserver': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/foreground/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ProcessCapacityHigh task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/stune/foreground/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply HighPerformance task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1076: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1076, 106) failed for service 'credstore': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1072: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1072, 107) failed for service 'gpu': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 108) failed for service 'surfaceflinger': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/stune/foreground/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply HighPerformance task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 109) failed for service 'exec 14 (/system/bin/gsid run-startup-tasks)': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 110) failed for service 'exec 15 (/system/bin/profcollectctl reset)': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 115) failed for service 'boringssl_self_test_apex32': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 122) failed for service 'boringssl_self_test_apex64': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 132) failed for service 'adbd': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 133) failed for service 'exec 16 (/system/bin/bootstat --set_system_boot_reason)': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_9999: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(9999, 134) failed for service 'traced_probes': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/system-background/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ServiceCapacityLow task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_9999: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(9999, 135) failed for service 'traced': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/system-background/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ServiceCapacityLow task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1047: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1047, 136) failed for service 'cameraserver': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1000: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1000, 137) failed for service 'idmap2d': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/camera-daemon/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply CameraServiceCapacity task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/stune/top-app/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply MaxPerformance task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1067: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1067, 139) failed for service 'incidentd': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 141) failed for service 'installd': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1040: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1040, 144) failed for service 'mediaextractor': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/foreground/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ProcessCapacityHigh task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1013: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1013, 145) failed for service 'mediametrics': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/foreground/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ProcessCapacityHigh task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/stune/foreground/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply HighPerformance task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1013: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1013, 148) failed for service 'media': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/foreground/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ProcessCapacityHigh task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/stune/foreground/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply HighPerformance task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 149) failed for service 'storaged': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to open /dev/cpuset/system-background/tasks: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;38:5:185m[0;1;39m[0;1;38:5:185mFailed to apply ServiceCapacityLow task profile: No such file or directory[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mfailed to set task profiles[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_1010: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(1010, 150) failed for service 'wificond': Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC libprocessgroup: [0;1;31m[0;1;39m[0;1;31mFailed to make and chown /sys/fs/cgroup/uid_0: Read-only file system[0m
+Nov 04 13:17:53 PHCS-PC init: [0;1;31m[0;1;39m[0;1;31mcreateProcessGroup(0, 151) failed for service 'adb_root': Read-only f

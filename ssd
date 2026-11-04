@@ -1,0 +1,6 @@
+○ sssd.service - System Security Services Daemon
+     Loaded: loaded (]8;;file://PHCS-PC/usr/lib/systemd/system/sssd.service\/usr/lib/systemd/system/sssd.service]8;;\; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: inactive (dead)
+  Condition: start [0;1;38:5:185mcondition unmet[0m at Wed 2026-11-04 08:23:46 -03; 6h ago
+
+Nov 04 08:23:46 PHCS-PC systemd[1]: sssd.service - System Security Services Daemon skipped, no trigger condition checks were met.
