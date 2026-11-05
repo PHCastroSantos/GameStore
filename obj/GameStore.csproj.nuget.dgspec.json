@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/80af5fe5-204f-4f31-bd1a-d23e1560f5a0/Studies/Projects/GameStore/GameStore.csproj": {}
+    "D:\\Projects\\GameStore\\GameStore.csproj": {}
   },
   "projects": {
-    "/mnt/80af5fe5-204f-4f31-bd1a-d23e1560f5a0/Studies/Projects/GameStore/GameStore.csproj": {
+    "D:\\Projects\\GameStore\\GameStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/80af5fe5-204f-4f31-bd1a-d23e1560f5a0/Studies/Projects/GameStore/GameStore.csproj",
+        "projectUniqueName": "D:\\Projects\\GameStore\\GameStore.csproj",
         "projectName": "GameStore",
-        "projectPath": "/mnt/80af5fe5-204f-4f31-bd1a-d23e1560f5a0/Studies/Projects/GameStore/GameStore.csproj",
-        "packagesPath": "/home/pedro-santos/.nuget/packages/",
-        "outputPath": "/mnt/80af5fe5-204f-4f31-bd1a-d23e1560f5a0/Studies/Projects/GameStore/obj/",
+        "projectPath": "D:\\Projects\\GameStore\\GameStore.csproj",
+        "packagesPath": "C:\\Users\\PHCastro\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\GameStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/pedro-santos/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\PHCastro\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -39,10 +39,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
@@ -69,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.114/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

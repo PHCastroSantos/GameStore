@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "aUTf2Z+NLOA=",
+  "dgSpecHash": "PeWQzh/A2hw=",
   "success": true,
-  "projectFilePath": "/mnt/80af5fe5-204f-4f31-bd1a-d23e1560f5a0/Studies/Projects/GameStore/GameStore.csproj",
+  "projectFilePath": "D:\\Projects\\GameStore\\GameStore.csproj",
   "expectedPackageFiles": [
-    "/home/pedro-santos/.nuget/packages/microsoft.aspnetcore.openapi/10.0.14/microsoft.aspnetcore.openapi.10.0.14.nupkg.sha512",
-    "/home/pedro-santos/.nuget/packages/microsoft.openapi/2.12.2/microsoft.openapi.2.12.2.nupkg.sha512"
+    "C:\\Users\\PHCastro\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.14\\microsoft.aspnetcore.openapi.10.0.14.nupkg.sha512",
+    "C:\\Users\\PHCastro\\.nuget\\packages\\microsoft.openapi\\2.12.2\\microsoft.openapi.2.12.2.nupkg.sha512"
   ],
   "logs": []
 }
