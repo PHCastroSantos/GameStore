@@ -4,12 +4,12 @@ GET http://localhost:5265/games
 GET http://localhost:5265/games/1
 
 ###
-POST http://localhost:5265/games
+POST http://localhost:5265/games/1
 Content-Type: application/json
 
 {
     "title": "Red Dead Redemption 2",
-    "genre": "Action-Adventure",
+    "genre": "",
     "price": 89.99,
     "releaseDate": "2018-10-26"
 }
