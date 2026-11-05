@@ -56,8 +56,9 @@ group.MapGet("/{id}", (int id) =>
 // POST /games
 group.MapPost("/", (CreateGameDto newGame) =>
 {
+
     GameDto game = new (
-        games.Count +1,
+        games.Count + 1,
         newGame.Title,
         newGame.Genre,
         newGame.Price,

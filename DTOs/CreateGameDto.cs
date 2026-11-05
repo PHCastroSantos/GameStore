@@ -2,14 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace GameStore.DTOs
 {
     public class CreateGameDto
     (
-        string Title, 
-        string Genre, 
-        double Price, 
+        [Required][StringLength(50)] string Title, 
+        [Required][StringLength(20)] string Genre, 
+        [Range(1,300)] double Price, 
         DateOnly ReleaseDate
         )
     {
